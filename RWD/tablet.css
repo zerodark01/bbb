@@ -1,0 +1,224 @@
+@media screen and (min-width:481px) and (max-width:1109px){
+.fixed-width {
+    width: 100%;
+    margin: auto;
+
+}
+h2.title {
+    text-align: center;
+    height: 200px;
+    line-height: 200px;
+}
+.col-2 {
+    width: calc(50% - 20px);
+    margin-left: 10px;
+    margin-right: 10px;
+    float: left;
+}
+.col-3{
+    width: calc(100%/3 - 20px);
+    margin-left: 10px;
+    margin-right: 10px;
+    float: left;
+}
+.col-4 {
+    width: calc(50% - 20px);
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    float: left;
+}
+nav {
+    height: 78px;
+    box-shadow: 0 1px 1px rgba(0,0,0,.2);
+/*    border-bottom: 1px solid rgba(0,0,0,.5);*/
+}
+nav .logo {
+    float: left;
+    width: 150px;
+    height: 78px;
+    background-color: aqua;
+}
+nav .menu {
+    float: right;
+}
+nav .menu ul {
+    margin: 0;
+    padding: 0;
+}
+nav .menu ul li {
+    float: left;
+    list-style-type: none;
+}
+nav .menu ul li a {
+    display: block;
+    padding-left: 15px;
+    padding-right: 15px;
+    line-height: 78px; 
+}
+header {
+    height: 400px;
+    background-image: url(http://lorempicsum.com/rio/1600/600/4);
+    background-size: cover;
+    background-position: center;
+}
+
+#about p {
+    margin-bottom: 20px;
+}
+#about .fixed-width:nth-of-type(2){
+/*    background-color: aqua;*/
+    margin-top: 100px;
+}
+#about .col-4 {
+    border-radius: 50%;
+    overflow: hidden;
+    transform: scale(.75);
+}
+#hobby {
+    margin-top: 60px;
+/*    background-color: aqua;*/
+    background-image: linear-gradient(0deg,rgba(255, 196, 0, .2) 50%,rgba(255, 196, 0, .6) 50%),linear-gradient(90deg,rgba(255, 196, 0, .2) 50%,rgba(255, 196, 0, .6) 50%);
+    background-size: 222px 222px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#hobby .box {
+    text-align: center;
+    background-color: #eee;
+    padding: 20px;
+}
+#hobby .box div {
+    margin-bottom: 30px;
+}
+#hobby .box p {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    line-height: 28px;
+    font-size: 14px;
+}
+.filter {
+    text-align: center;
+}
+.filter a {
+    display: inline-block;
+    padding: 10px 15px;
+    border: 1px solid #aaa;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+.gallery {
+    margin-top: 100px;
+}
+.gallery .items {
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    float: left;
+}
+#portfolio .btn {
+    display: block;
+    width: 400px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    background-color: #ccc;
+    border-radius: 10px;   
+}
+#share {
+    background-color: #ddd;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 100px;
+    color: #260038;
+}
+#share .box {
+    text-align: center;
+}
+#share .number {
+    font-size: 60px;
+}
+#share p {
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+#share .icon {
+    border-radius: 50%;
+    border: 3px solid #260038;
+    width: 70px;
+    height: 70px;
+    margin: auto;
+    line-height: 75px;
+}
+#shop {
+    background-color: #ff0b56;
+    padding-bottom: 50px;
+}
+#shop .box {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+}
+#shop .box p {
+    font-size: 14px;
+    line-height: 36px;
+}
+.shop-btn {
+    margin-top: 30px;
+    display: inline-block;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 40px;
+    line-height: 40px;
+    background-color: aqua;
+    border: 0;
+}
+#contact {
+    padding-bottom: 50px;
+}
+#contact p {
+    text-align: center;
+    margin: 30px 0;
+}
+#myForm {
+    width: 480px;
+    margin: auto;
+    text-align: center;
+}
+#myForm input[type=submit]{
+   
+}
+#myForm input[type=text]{
+    width: 480px;
+    padding: 15px;
+} 
+#myForm div {
+    margin: 30px 0;
+}
+#myForm textarea {
+    width: 480px;
+    padding: 15px;
+}
+footer {
+    background-color: #6a0091;
+    text-align: center;
+    padding: 40px 0;
+}
+footer .icon {
+    display: inline-block;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    margin: 15px 5px;
+    line-height: 40px;
+}
+footer p {
+    color: #bcbcbc;
+}
+}

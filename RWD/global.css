@@ -1,0 +1,17 @@
+.full-width {
+    width: 100%;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+a {
+    text-decoration: none;
+    color: #111;
+}
+img {
+    width: 100%;
+    vertical-align: top;
+}
